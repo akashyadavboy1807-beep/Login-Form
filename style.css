@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: transparent;
+    border: 3px solid rgb(228, 102, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 40vh;
+    width: 30vw;
+    padding: 20px;
+}
+
+input {
+    padding: 5px;
+    font-size: 15px;
+    border-color: red;
+    text-align: center;
+}
+
+input:hover {
+    font-size: 20px;
+    border-color: blue;
+}
+
+button {
+    font-size: 15px;
+    padding: 5px;
+    border-color: red;
+}
+
+button:hover {
+    background-color: transparent;
+    font-size: 20px;
+    border-color: blue;
+   
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        width: 60vw;
+    }
+}
